@@ -312,15 +312,6 @@
                 ]
             });
 
-            // Get the current slide
-            // var currentSlide = $('.slider').slick('slickCurrentSlide');
-            // console.log("currentSlide:",currentSlide);
-
-            // $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
-            //     console.log("nextSlide:",nextSlide);
-            //     console.log("currentSlide:",currentSlide);
-            // });
-
             $('.slider').on('afterChange', function(slick, currentSlide){
                 console.log("currentSlide:",currentSlide.currentSlide + 1);
                 $('.ind').text(currentSlide.currentSlide + 1);

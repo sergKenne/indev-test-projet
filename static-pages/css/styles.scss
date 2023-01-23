@@ -271,6 +271,10 @@ html {
 			position: absolute;
 			z-index: 100;
 			cursor: pointer;
+			@media screen and (max-width: 540px) {
+				height: 35px;
+				width: 35px;
+			}
 		}
 		.slick-prev {
 			background: url(../images/prev3x.png) no-repeat center/cover;
@@ -504,6 +508,10 @@ html {
 		&--count {
 			flex: 1;
 			margin: 0 5px;
+		}
+		@media screen and (max-width: 650px) {
+			margin-left: 0;
+			margin-right: 4px;
 		}
 	}
 	&__price {

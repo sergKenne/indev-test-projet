@@ -254,6 +254,12 @@ html {
   z-index: 100;
   cursor: pointer;
 }
+@media screen and (max-width: 540px) {
+  .main__slider-inner .slick-arrow {
+    height: 35px;
+    width: 35px;
+  }
+}
 .main__slider-inner .slick-prev {
   background: url(../images/prev3x.png) no-repeat center/cover;
   right: 124px;
@@ -491,6 +497,12 @@ html {
 .in-basket__btn--count {
   flex: 1;
   margin: 0 5px;
+}
+@media screen and (max-width: 650px) {
+  .in-basket__btn {
+    margin-left: 0;
+    margin-right: 4px;
+  }
 }
 .in-basket__price {
   font-weight: 500;
