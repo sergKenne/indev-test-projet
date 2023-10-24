@@ -1,6 +1,9 @@
 <template>
   <div class="wrapper">
         <HeaderComponent/>
+        <div>
+          <TestComponent/>
+        </div>
         <main class="main">
             <div class="container">
                 <div class="main__inner-basket">
@@ -27,7 +30,7 @@ export default {
     HeaderComponent,
     BasketComponent,
     CouponComponent,
-    ProductsComponent
+    ProductsComponent,
   }
 }
 </script>
